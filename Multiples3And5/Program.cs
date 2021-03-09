@@ -20,7 +20,6 @@ namespace Multiples3And5
                     three += 3;
                     threes.Add(three);
                 }
-
             }
 
             List<int> fives = new List<int>();
@@ -32,7 +31,6 @@ namespace Multiples3And5
                     five += 5;
                     fives.Add(five);
                 }
-
             }
 
             int threesSum = threes.Sum();
