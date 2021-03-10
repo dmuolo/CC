@@ -19,7 +19,7 @@ namespace TenDigitFibonacci
 
             long xx = 0;
             long y = 1;
-            long z = 2;//set up 3 variables
+            long z = 2;//set up 3 variables for fibonacci sequence
 
             List<long> fibonacciNums = new List<long>();
 
@@ -30,14 +30,14 @@ namespace TenDigitFibonacci
                 y = z + xx;
                 fibonacciNums.Add(y);
                 xx = y + z;
-                fibonacciNums.Add(xx);
+                fibonacciNums.Add(xx);//storing fibonacci sequence #s in list
             } while (xx < 1000000000 && y < 1000000000 && z < 1000000000); //trading the val
 
-            List<string> lengths = new List<string>();
+            List<string> lengths = new List<string>();//declared list of strings
 
             foreach (long a in fibonacciNums)//displaying the items in the fibonacci sequence collection for reference
             {
-                lengths.Add(a.ToString());
+                lengths.Add(a.ToString());//added each long to the list of strings for string method functionality purposes
             }
 
             foreach (string a in lengths)
@@ -45,10 +45,9 @@ namespace TenDigitFibonacci
                 if (lengths.All(x => x.Length < 11))//x evaluates to all items in List "lengths"  where the length is less than 11
                     //Just so happens there is only one item in the fibonacci sequence with a length of 10
                 {
-                    Console.WriteLine("[" + lengths.IndexOf(a) + "] " + " " + a + " " + $" Length: {a.Length}");
+                    Console.WriteLine("[" + lengths.IndexOf(a) + "] " + " " + a + " " + $" Length: {a.Length}");//displays the index, #, and length of # for each # in the fibonacci sequence up to the solution. //Only issue present is that the 2nd index also shows as "0" since both are equal to 1.
                 }
             }
-            //Only issue was that the 2nd index also shows as "0" since both are equal to 1.
         }//end 
     }
 }
