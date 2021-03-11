@@ -48,6 +48,6 @@ namespace TenDigitFibonacci
                     Console.WriteLine("[" + lengths.IndexOf(a) + "] " + " " + a + " " + $" Length: {a.Length}");//displays the index, #, and length of # for each # in the fibonacci sequence up to the solution. //Only issue present is that the 2nd index also shows as "0" since both are equal to 1.
                 }
             }
-        }//end 
-    }
-}
+        }//end main
+    }//end class
+}//end namespace
