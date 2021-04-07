@@ -10,6 +10,7 @@ namespace FibonacciEvenSum
     {
         static void Main(string[] args)
         {
+            //Prompt
             #region Notes
             //Fibonacci Sequence
             //1 + 1 = 2;
@@ -25,6 +26,7 @@ namespace FibonacciEvenSum
             //Sum of even-numbered fibonacci sequence values under 4,000,000
 
             #endregion
+
 
             long x = 0;
             long y = 1;
@@ -54,10 +56,12 @@ namespace FibonacciEvenSum
                 Console.WriteLine(a);
                 if (a % 2 == 0)
                 {
-                    evenFibonacciNums.Add(a);//if the # in the fibonacci sequence is divisible by 2, it will be added to this list
+                    evenFibonacciNums.Add(a);//if the # in the fibonacci sequence is divisible by 2 (even), it will be added to this list
                 }
             }
 
+
+            //Console Display Considerations and Results
             Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("EVEN NUMS");
