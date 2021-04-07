@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenDigitFibonacci", "TenDig
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestCollatz", "LongestCollatz\LongestCollatz.csproj", "{EA0A2069-E62E-4ABF-9B69-C243F7B63312}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATM", "ATM\ATM.csproj", "{6CC2CC9E-599E-4CF3-BCE0-1CB9726213E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempConverter", "TempConverter\TempConverter.csproj", "{A1B87344-25C3-441F-BD5C-DC556C301965}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{EA0A2069-E62E-4ABF-9B69-C243F7B63312}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA0A2069-E62E-4ABF-9B69-C243F7B63312}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA0A2069-E62E-4ABF-9B69-C243F7B63312}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CC2CC9E-599E-4CF3-BCE0-1CB9726213E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CC2CC9E-599E-4CF3-BCE0-1CB9726213E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CC2CC9E-599E-4CF3-BCE0-1CB9726213E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CC2CC9E-599E-4CF3-BCE0-1CB9726213E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B87344-25C3-441F-BD5C-DC556C301965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B87344-25C3-441F-BD5C-DC556C301965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B87344-25C3-441F-BD5C-DC556C301965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B87344-25C3-441F-BD5C-DC556C301965}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
